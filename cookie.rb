@@ -3,8 +3,6 @@ class Cookie
   attr_accessor :flour
   attr_accessor :butter
 
-  # test 
-
   def initialize(sugar, flour, butter)
     @sugar, @flour, @butter = sugar, flour, butter
   end
